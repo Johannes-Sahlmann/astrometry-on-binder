@@ -1,0 +1,14 @@
+name: astrometry-on-binder
+channels:
+  - conda-forge
+dependencies:
+  - python == 3.9
+  - numpy
+  - pip
+  - kepmodel
+  - pandas
+  - matplotlib
+  - astroquery
+  - astropy
+  - pip:
+    - pystrometry
